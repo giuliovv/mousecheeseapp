@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/mousecheeseapp/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/mousecheeseapp/static/js/main.c9a76597.chunk.js",
-    "main.js.map": "/mousecheeseapp/static/js/main.c9a76597.chunk.js.map",
-    "runtime-main.js": "/mousecheeseapp/static/js/runtime-main.3dee35a5.js",
-    "runtime-main.js.map": "/mousecheeseapp/static/js/runtime-main.3dee35a5.js.map",
-    "static/js/2.54f8edb7.chunk.js": "/mousecheeseapp/static/js/2.54f8edb7.chunk.js",
-    "static/js/2.54f8edb7.chunk.js.map": "/mousecheeseapp/static/js/2.54f8edb7.chunk.js.map",
-    "static/js/3.8bdc4eb1.chunk.js": "/mousecheeseapp/static/js/3.8bdc4eb1.chunk.js",
-    "static/js/3.8bdc4eb1.chunk.js.map": "/mousecheeseapp/static/js/3.8bdc4eb1.chunk.js.map",
+    "main.css": "/mousecheeseapp/static/css/main.e5a277a1.chunk.css",
+    "main.js": "/mousecheeseapp/static/js/main.029ba64e.chunk.js",
+    "main.js.map": "/mousecheeseapp/static/js/main.029ba64e.chunk.js.map",
+    "runtime-main.js": "/mousecheeseapp/static/js/runtime-main.bba78b81.js",
+    "runtime-main.js.map": "/mousecheeseapp/static/js/runtime-main.bba78b81.js.map",
+    "static/js/2.efc88b03.chunk.js": "/mousecheeseapp/static/js/2.efc88b03.chunk.js",
+    "static/js/2.efc88b03.chunk.js.map": "/mousecheeseapp/static/js/2.efc88b03.chunk.js.map",
+    "static/js/3.64c1853a.chunk.js": "/mousecheeseapp/static/js/3.64c1853a.chunk.js",
+    "static/js/3.64c1853a.chunk.js.map": "/mousecheeseapp/static/js/3.64c1853a.chunk.js.map",
     "index.html": "/mousecheeseapp/index.html",
     "service-worker.js": "/mousecheeseapp/service-worker.js",
     "service-worker.js.map": "/mousecheeseapp/service-worker.js.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/mousecheeseapp/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.54f8edb7.chunk.js.LICENSE.txt": "/mousecheeseapp/static/js/2.54f8edb7.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/mousecheeseapp/static/media/logo.103b5fa1.svg"
+    "static/css/main.e5a277a1.chunk.css.map": "/mousecheeseapp/static/css/main.e5a277a1.chunk.css.map",
+    "static/js/2.efc88b03.chunk.js.LICENSE.txt": "/mousecheeseapp/static/js/2.efc88b03.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3dee35a5.js",
-    "static/js/2.54f8edb7.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.c9a76597.chunk.js"
+    "static/js/runtime-main.bba78b81.js",
+    "static/js/2.efc88b03.chunk.js",
+    "static/css/main.e5a277a1.chunk.css",
+    "static/js/main.029ba64e.chunk.js"
   ]
 }
