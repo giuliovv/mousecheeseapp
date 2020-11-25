@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mousecheeseapp/static/css/main.e5a277a1.chunk.css",
-    "main.js": "/mousecheeseapp/static/js/main.bbc379f2.chunk.js",
-    "main.js.map": "/mousecheeseapp/static/js/main.bbc379f2.chunk.js.map",
+    "main.js": "/mousecheeseapp/static/js/main.06a8f872.chunk.js",
+    "main.js.map": "/mousecheeseapp/static/js/main.06a8f872.chunk.js.map",
     "runtime-main.js": "/mousecheeseapp/static/js/runtime-main.bba78b81.js",
     "runtime-main.js.map": "/mousecheeseapp/static/js/runtime-main.bba78b81.js.map",
     "static/js/2.efc88b03.chunk.js": "/mousecheeseapp/static/js/2.efc88b03.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.bba78b81.js",
     "static/js/2.efc88b03.chunk.js",
     "static/css/main.e5a277a1.chunk.css",
-    "static/js/main.bbc379f2.chunk.js"
+    "static/js/main.06a8f872.chunk.js"
   ]
 }
