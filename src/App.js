@@ -23,9 +23,6 @@ async function sendInstructions(forward, backward, left, right, stop, setError)
     if(response!=="OK"){
       setError(true)
     }
-    else {
-      return "OK"
-    }
 }
 
 function App() {
@@ -52,7 +49,6 @@ function App() {
             direction="row"
             justify="center"
             alignItems="center"
-            // spacing={6}
             xs={12}
           >
             <Grid item xs={6}>
@@ -75,7 +71,7 @@ function App() {
       </header>
       <Snackbar open={open} autoHideDuration={6000} onClose={() => setOpen(false)}>
         <Alert onClose={() => setOpen(false)} severity="error">
-          Error: please make sure to be connected to the chair.
+          Error: please make sure to be connected to the mouse.
         </Alert>
       </Snackbar>
     </div>
