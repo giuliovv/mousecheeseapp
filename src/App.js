@@ -19,7 +19,7 @@ function Alert(props) {
 
 async function sendInstructions(forward, backward, left, right, stop, setError)
 {
-    const response = await fetch("192.168.4.1/data/{forward:"+forward+","+"backward:"+backward+",left:"+left+",right"+right+",stop:"+stop+"}").catch((error) => {
+    const response = await fetch('192.168.4.1/data/?sensor_reading={"forward":"'+forward+'",'+'"backward":"'+backward+'","left":"'+left+'","right":"'+right+'","stop":"'+stop+'"}').catch((error) => {
       console.error('Error:', error);
     });
     if(response!=="OK"){
