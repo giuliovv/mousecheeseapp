@@ -19,7 +19,18 @@ function Alert(props) {
 
 async function sendInstructions(forward, backward, left, right, stop, setError)
 {
-    const response = await fetch('192.168.4.1/data/?sensor_reading={"forward":"'+forward+'",'+'"backward":"'+backward+'","left":"'+left+'","right":"'+right+'","stop":"'+stop+'"}').catch((error) => {
+    const response = await fetch('http://192.168.4.1/data/?sensor_reading={"forward":"'+forward+'",'+'"backward":"'+backward+'","left":"'+left+'","right":"'+right+'","stop":"'+stop+'"}', {
+      method: 'POST', // *GET, POST, PUT, DELETE, etc.
+      mode: 'cors', // no-cors, *cors, same-origin
+      cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+      credentials: 'omit', // include, *same-origin, omit
+      headers: {
+        'Content-Type': 'application/html'
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      redirect: 'follow', // manual, *follow, error
+      referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+    }).catch((error) => {
       console.error('Error:', error);
     });
     if(response!=="OK"){
